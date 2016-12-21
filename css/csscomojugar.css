@@ -1,0 +1,26 @@
+html {		background:url("../img/cielo.jpg");
+			background-size: cover;
+			background-attachment: fixed;
+			}
+
+p{			font-family: arial;
+			font-size:12;
+			color:white;
+			margin-left:5%;
+			}
+
+a{			color:white;
+			text-decoration:none;}
+
+
+#flarriba{	margin:auto;
+			height:15%;
+			}
+			
+input{	position:fixed;
+		top:90%;
+		left:45%;
+		}
+		
+table{	margin:auto;
+		}

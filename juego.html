@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Proyecto Lunar</title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel='stylesheet' media='screen and (min-width: 961px)' href='css/d.css'>
+		<link rel='stylesheet' media='screen and (max-width: 960px)' href='css/m.css'>
+		<script src="js/js.js"></script>
+	</head>
+	<body>
+		<div id="nave">
+			<img id="imagen"src="img/nave.png" alt="img nave">
+		</div>
+		<img id=luna src="img/luna.png" alt="base lunar">
+		<div class="a">
+			<div class=panelcontrol>
+				<div id="showm">show menu</div>
+				<ul id="cpanel">
+					<li>Velocidad <span id="velocidad">100</span> m/s</li>
+					<li>Altura <span id="altura">70 </span> m</li>
+					<li>Fuel <span id="fuel">100</span> l</li>
+				</ul>
+			</div>
+		</div>
+		<div id="hidem">hide menu</div>
+			<ul class=dos>
+				<li class=tres><a class=uno href="juego.html">Reiniciar</a></li>				
+				<li class=tres><a class=uno onclick="pausa()" id="pausa">Pausa</a></li>
+				<li class=tres><a class=uno onclick="reanudar()" id="reanudar">Reanudar</a></li>
+				<li class=tres><a class=uno href="javascript:abrir('comojugar.html')">Como jugar</a></li>
+				<li class=tres><a class=uno href="index.html">Salir</a></li>
+			</ul>
+	</body>
+</html>
